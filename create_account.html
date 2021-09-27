@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Create an Account</h1>
+    <br>
+    <form action="/action_page.php" method="get">
+    <label for="mail">Email:</label><br>
+    <input type="text" name="Email" id="mail"><br><br>
+    <label for="pass">Password:</label><br>
+    <input type="text" name="Password" id="pass"><br><br>
+    <label for="age">Age:</label><br>
+    <select name="age" id="age" placeholder="Select Age"><br>
+    <option value="nineteen">Nineteen</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+    <option value="24">24</option>   
+    </select><br><br>
+    <label for="about">Tell us a little about yourself:</label><br>
+    <textarea name="about_user" rows="4" cols="50">
+    </textarea>
+    <br><br>
+    <input type="checkbox" name="tnc" id="tnc">
+    <label for="tnc">I agree to the <a href="#">terms and service</a> </label><br><br>
+    <input type="submit" value="Sign up">
+    </form>
+ 
+</body>
+</html>
